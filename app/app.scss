@@ -1,0 +1,51 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/light';
+
+// Override variables here
+
+@import '~nativescript-theme-core/scss/index';
+
+// Global SCSS styling
+
+button {
+  width: 96%;
+  font-size: 20em;
+  height: 9%;
+  border-radius: 14%;
+}
+
+button.white {
+  background-color: white;
+  background-color: #FFFFFF;
+  color: #006996;
+}
+
+.platform-ios .underline-input {
+  padding-bottom: 2%;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 1;
+}
+
+button.blue {
+  color: #FFFFFF;
+  background-color: #006996;
+  border-color: white white white white;
+  border-width: 1 1 1 1;
+}
+
+button.red {
+  background-color: red;
+  color: white;
+}
+
+button.bordered {
+  border-color: #006996 #006996 #006996 #006996;
+  border-width: 1 1 1 1;
+}
+
+.platform-ios .underline-input {
+  padding-bottom: 2%;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 1;
+}
