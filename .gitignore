@@ -1,0 +1,25 @@
+.DS_Store
+*.log
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+### NativeScript ###
+/platforms
+/hooks
+/node_modules
+/debugger
+/dist
+
+
+### Test ###
+/test/unit/coverage/
+/test/e2e/reports/

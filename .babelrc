@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", { "cacheDirectory": true }]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-rest-spread"
+  ],
+  "ignore": ["node_modules"]
+}
